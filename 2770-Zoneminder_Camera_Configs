@@ -1,0 +1,79 @@
+Zoneminder Cameras
+
+Name:				ANPVIZ IPC-D250G-S
+Description:		Backyard Cam
+Server:				none
+Source type:		Ffmpeg
+Function:			Record
+Source Path:		rtsp://rtsp:Z0n3m1nd3r@192.168.13.106:554/cam/realmonitor?channel=1&subtype=0
+Method:				UDP
+Target colorspace:	32bit color
+Capture Resolution:	5MP
+
+
+
+Name:				WyzeCamV2-PoolCam
+Description:		WyzeCamV2
+Server:				none
+Source type:		Ffmpeg
+Function:			Record
+Source Path:		rtsp://rtsp:Z0n3m1nd3r@192.168.13.102/live
+Method:				UDP
+Target colorspace:	32bit color
+Capture Resolution:	1080p
+
+
+
+Name:				AmCrest Bullet
+Description:		AmCrest Bullet
+Server:				none
+Source type:		Ffmpeg
+Function:			Record
+Source Path:		rtsp://rtsp:Z0n3m1nd3r@192.168.13.101:554/cam/realmonitor?channel=1&subtype=0
+Method:				UDP
+Target colorspace:	32bit color
+Capture Resolution:	5MP
+
+
+
+Name:				PTZ-2504X-I2_FrontCam
+Description:		Front Yard Cam (PTZ)
+Server:				none
+Source type:		Ffmpeg
+Function:			Record
+Source Path:		rtsp://rtsp:Z0n3m1nd3r@192.168.13.104:554/stream0?username=admin&password=5B2C65E548757A5723A6C37D3DCFB941
+Method:				UDP
+Target colorspace:	32bit color
+Capture Resolution:	5MP
+Control:
+	Controllable:		YES
+	Control Type:		ONVIF Camera
+	Control Device:		MainStream
+	Control Address:	rtsp:Z0n3m1nd3r@192.168.13.104
+
+
+
+Name:				WyzeCamv3-GarageCam
+Description:		WyzeCamv3
+Server:				none
+Source type:		Ffmpeg
+Function:			Record
+Source Path:		rtsp://rtsp:Z0n3m1nd3r@192.168.13.105:554/live
+Method:				UDP
+Target colorspace:	32bit color
+Capture Resolution:	1080p
+
+
+
+Name:				WyzeCamV2-2ndFloorCam
+Description:		WyzeCamV2
+Server:				none
+Source type:		Ffmpeg
+Function:			Record
+Source Path:		rtsp://rtsp:Z0n3m1nd3r@192.168.13.103/live
+Method:				UDP
+Target colorspace:	32bit color
+Capture Resolution:	1080p
+
+
+

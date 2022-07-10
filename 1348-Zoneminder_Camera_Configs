@@ -1,0 +1,41 @@
+Zoneminder Cameras
+
+Name:				NW Corral Camera	
+Description:		D-Link DCS-5020L
+Server:				none
+Source type:		Remote
+Function:			Record
+Protocol:			HTTP
+Method:				Simple
+Host Name:			admin:mike1969@192.168.1.203
+Port:				80
+Path:				/video.cgi
+Target colorspace:	32bit color
+Capture Resolution:	640x480
+Controllable:		YES
+	Control Type:			Dlink DCS-5020L
+	Control Device:			<blank>
+	Control Address:		admin:mike1969@192.168.1.203
+	
+
+Name:				Romeo Cam
+Description:		Foscam F9900ip
+Server:				none
+Source type:		Ffmpeg
+Function:			Record
+Source Path:		rtsp://rtsp:Z0n3m1nd3r@192.168.1.205:88/videoMain
+Method:				TCP
+Target colorspace:	24bit color
+Capture Resolution:	1080p
+
+
+Name:				Indoor Stall Cam 01
+Description:		Foscam F9900ip
+Server:				none
+Source type:		Ffmpeg
+Function:			Record
+Source Path:		rtsp://rtsp:Z0n3m1nd3r@192.168.1.206:88/videoMain
+Method:				TCP
+Target colorspace:	24bit color
+Capture Resolution:	1080p
+
